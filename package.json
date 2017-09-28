@@ -1,0 +1,26 @@
+{
+  "name": "webpack_three",
+  "version": "1.0.0",
+  "description": "Basic Three.js starter using webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --open  --config webpack.dev.js"
+  },
+  "keywords": [],
+  "author": "Rob Wilson",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.7",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.18.2",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "three": "^0.87.1"
+  }
+}
